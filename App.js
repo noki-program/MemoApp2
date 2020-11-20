@@ -3,7 +3,7 @@ import React from "react";
 import { StyleSheet, View } from "react-native";
 
 import Appbar from "./src/components/Appbar";
-import MemoListScreen from "./src/screens/MemoListScreen";
+import MemoDetailScreen from "./src/screens/MemoDetailScreen";
 
 export default class App extends React.Component {
   render() {
@@ -11,7 +11,7 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <StatusBar style="auto" />
         <Appbar />
-        <MemoListScreen />
+        <MemoDetailScreen />
       </View>
     );
   }
