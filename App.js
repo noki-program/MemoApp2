@@ -4,6 +4,7 @@ import { StyleSheet, View } from "react-native";
 
 import Appbar from "./src/components/Appbar";
 import MemoDetailScreen from "./src/screens/MemoDetailScreen";
+import MemolistScreen from "./src/screens/MemoListScreen";
 
 export default class App extends React.Component {
   render() {
@@ -11,6 +12,7 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <StatusBar style="auto" />
         <Appbar />
+        {/* <MemolistScreen /> */}
         <MemoDetailScreen />
       </View>
     );
